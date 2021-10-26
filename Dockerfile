@@ -1,4 +1,4 @@
-FROM iamliquidx/mirleechxsdk:21e1a2aa3057d82002a9a1962e14cd992a6f6d6a
+FROM ghcr.io/viswanathbalusu/megarestbase AS builder
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
